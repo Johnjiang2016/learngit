@@ -3,3 +3,8 @@ git remote add gitee-origin https://jiangchengbao:JCB58772018@gitee.com/jiangche
 
 github 账号密码
 git remote add github-origin https://Johnjiang2016:jcb5877@github.com/Johnjiang2016/learngit.git
+
+
+删除本地账号配置
+git remote rm github-origin  
+git remote rm gitee-origin   
