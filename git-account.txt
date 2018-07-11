@@ -18,4 +18,6 @@
 
 删除本地账号配置
 git remote rm github-origin  
-git remote rm gitee-origin   
+git remote rm gitee-origin  
+
+
