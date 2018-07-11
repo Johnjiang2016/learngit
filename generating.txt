@@ -3,6 +3,7 @@
  1.如何生成ssh公钥
 
 码云步骤：
+参考：http://git.mydoc.io/?t=154712
 
 #你可以按如下命令来生成 sshkey: 
 
@@ -22,13 +23,15 @@ ssh -T git@gitee.com
 
 #若返回
 
-#Welcome to Gitee.com, yourname!
+#Welcome to Gitee.com ,johnjiang!
 
 #则证明添加成功
 
 
 
 github步骤：
+
+参考：https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/#adding-your-ssh-key-to-the-ssh-agent
 
 输入以下命令
 1.
@@ -41,7 +44,6 @@ github步骤：
     #查看你的 public key
     cat ~/.ssh/id_rsa.pub
     
-
 
 3. 
     ssh -T git@gitee.com
