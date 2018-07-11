@@ -1,0 +1,5 @@
+码云 账号密码
+git remote add gitee-origin https://jiangchengbao:JCB58772018@gitee.com/jiangchengbao/learngit.git
+
+github 账号密码
+git remote add github-origin https://Johnjiang2016:jcb5877@github.com/Johnjiang2016/learngit.git
