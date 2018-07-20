@@ -10,5 +10,5 @@ Creating a new branch is quick and simple.
 Switched to a new branch 'dev'
  
 
-新建分支 test-no-ff 测试no-ff模式
+新建分支 ff  测试  ff模式 回滚
  
