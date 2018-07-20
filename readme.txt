@@ -8,7 +8,4 @@ Creating a new branch is quick.
 测试merge cmd
 Creating a new branch is quick and simple.
 Switched to a new branch 'dev'
-我是测试 Fast forward 模式 
-
-我是测试 Fast forward 模式 和 递归模式的区别 
-再次测试Fast forward 模式 和 递归模式的区别 
+release 分支测试 ff 模式
