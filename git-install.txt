@@ -1,0 +1,12 @@
+1.安装方法
+
+   a. 下载地址：https://git-scm.com/downloads
+      下载图形界面，点击下一步开始安装
+   b. 
+        Mac OS : 安装 homebrew（https://brew.sh/），执行命令：brew install git
+        Ubuntu : 执行命令 sudo apt-get install git
+
+安装完成后，还需要最后一步设置，在命令行输入：
+
+$ git config --global user.name "chengbao.jiang"
+$ git config --global user.email "chengbao.jiang@hotmail.com"
