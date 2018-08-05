@@ -1,6 +1,8 @@
-1、git reset --hard <commit id>
+1、 通过 git-log 查看待回退的版本即commit_id
+    git reset --hard <commit_id>
     git rteset --hard HEAD^   回退到上一个版本
     git rteset --hard HEAD^^  回退到上上一个版本
     git rteset --hard HEAD-n  回退到上100个版本
-2、
-3、
+2、回退到历史版本后悔了，还可以从历史版本回退到未来版本
+    git reflog 从列出的历史版本信息列表中找到要回退的未来版本commit_id
+3、 git reset --hard <commit_id>
