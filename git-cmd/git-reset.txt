@@ -1,0 +1,6 @@
+1、git reset --hard <commit id>
+    git rteset --hard HEAD^   回退到上一个版本
+    git rteset --hard HEAD^^  回退到上上一个版本
+    git rteset --hard HEAD-n  回退到上100个版本
+2、
+3、

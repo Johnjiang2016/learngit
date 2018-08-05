@@ -1,0 +1,2 @@
+1、git log 查看最近到最远的提交日志，默认三次提交日志
+2、git log --pretty=oneline 简化日志信息，只显示 commitid和提交描述信息
