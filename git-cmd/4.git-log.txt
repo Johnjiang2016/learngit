@@ -1,0 +1,5 @@
+#用git log可以查看提交历史，以便确定要回退到哪个版本
+1、git log 查看最近到最远的提交日志，默认三次提交日志(以当前分支为起点))
+2、git log --pretty=oneline 简化日志信息，只显示 commitid和提交描述信息
+#要重返未来，用git reflog查看命令历史，以便确定要回到未来的哪个版本
+3、git reflog
