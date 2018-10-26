@@ -1,3 +1,5 @@
+关联远程仓库
+
 使用HTTPS链接：
 
     码云 账号密码
@@ -18,6 +20,9 @@
 
 删除本地账号配置
 git remote rm github-origin  
-git remote rm gitee-origin  
+git remote rm gitee-origin 
+
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容
+git push -u origin master
 
 
