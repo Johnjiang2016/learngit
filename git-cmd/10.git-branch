@@ -1,0 +1,32 @@
+1、查看本地分支
+    git branch 
+2、查看本地和远程分支
+    git branch -a
+3、创建分支
+    git branch   <branch_name>
+4、切换分支
+    git checkout <branch_name>
+5、创建+切换分支（以当前分支为准）
+    git checkout -b <branch_name>（以当前分支为准）
+    git checkout -b <new_branch_name> <base_branch_name>(以分支base_branch_name为基础，创建新的分支名称new_branch_name)
+6、合并某分支到当前分支
+    git merge <branch_name>
+    a.首先切换到待合并的分支 比如:master
+        git checkout master (切换到master分支)
+        git pull origin master (从远程仓库中获取最新代码)
+    b.将任务分支合并到主分支上(git有可能直接用fast forward策略)
+        git merge dev-task
+    c.  git merge --no-ff dev-task (禁用fast forwar策略)
+    d. 合并分支系统自动生成提交注释，采用如下命令：
+        a.按住i进入编辑模式
+        b.输入注释信息
+        c.按ESC键，退出编辑模式，回到命令模式
+        d.按【:w】保存文本
+        e.按【:q】退出。
+
+7、删除分支
+    如果创建的分支未合并到其他分还在上必须使用如下命令：
+    git branch -D <branch_name> （也可以删除已经合并到其他分支上的分支）
+    如果创建的分支已经合并到其他分支上，使用如下命令：
+    git branch -d <branch_name>
+
