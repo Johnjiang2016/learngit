@@ -24,5 +24,6 @@ git remote rm gitee-origin
 
 关联后，使用命令git push -u origin master第一次推送master分支的所有内容
 git push -u origin master
+(git push -u origin master 如果当前分支与多个主机存在追踪关系，则可以使用 -u 参数指定一个默认主机，这样后面就可以不加任何参数使用git push)
 
 
