@@ -25,8 +25,12 @@
         e.按【:q】退出。
 
 7、删除分支
-    如果创建的分支还未合并到其他分支上（强制删除）必须使用如下命令：
-    git branch -D <branch_name> （也可以删除已经合并到其他分支上的分支）
-    如果创建的分支已经合并到其他分支上，使用如下命令：
-    git branch -d <branch_name>
+    删除本地分支：
+        如果创建的分支还未合并到其他分支上（强制删除）必须使用如下命令：
+        git branch -D <branch_name> （也可以删除已经合并到其他分支上的分支）
+        如果创建的分支已经合并到其他分支上，使用如下命令：
+        git branch -d <branch_name>
+    删除远程分支：
+        git push origin --delete <branchName>
+
 
