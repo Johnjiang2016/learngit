@@ -8,7 +8,7 @@
     git checkout <branch_name>
 5、创建+切换分支（以当前分支为准）
     git checkout -b <branch_name>（以当前分支为准）
-    git checkout -b <new_branch_name> <base_branch_name>(以分支base_branch_name为基础，创建新的分支名称new_branch_name)
+    git checkout -b <new_branch_name> <origin/base_branch_name>(以分支origin/base_branch_name为基础，创建新的分支名称new_branch_name)
 6、合并某分支到当前分支
     git merge <branch_name>
     a.首先切换到待合并的分支 比如:master
