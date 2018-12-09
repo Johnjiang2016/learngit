@@ -1,0 +1,13 @@
+1、创建tag
+   a.首选需要切换到打标签的分支
+    git checkout <branch_name>
+   b.标签打在当前commit上
+    git tag <tag_name>
+   c.标签打在指定commit上
+    git tag <tag_name> <commit_id>
+   d.创建带说明的标签
+    git tag -a <tag_name> -m "这是标签的说明.."
+2、查看标签
+   a.查看所有标签 git tag
+   b.查看标签详细信息 git show tag <tag_name>
+3、
